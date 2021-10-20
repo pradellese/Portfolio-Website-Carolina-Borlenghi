@@ -1,0 +1,33 @@
+.container {
+  padding: 0,30,0,30;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  font-size: 16px;
+  color: #e4e4e4;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #272727;
+  color: #a5a5a5;
+}
+
+
+h1 {
+  font-family: 'DM Serif Display', serif;
+  color: #e4e4e4;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 70px;
+}
+
+h2 {
+  font-family: 'DM Serif Display', serif;
+  color: #e4e4e4;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  }
