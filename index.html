@@ -8,49 +8,60 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat&display=swap" rel="stylesheet">
   </head>
-
   <body>
 	<!-- Navbar -->
-    	   <div>
-      <div>
-        <img src="img/logo@2x.png" width="70px" height="70px "alt="C">
-        </div>
-  			<nav>
-          <ul>
-  				 <li><a href="index.html">Projects</a></li>
-  				 <li><a href="about.html">About</a></li>
-           <li><a href="#contact">Get in touch</a></li>
-         </ul>
-       </nav>
-  		</div>
+    	<header class="nav-container">
+        <img class="logo" src="img/logo@4x.png" alt="logo">
+        <nav>
+          <ul class="nav-link">
+            <li> <a href="#">Projects</a></li>
+            <li> <a href="about.html">About</a></li>
+          </ul>
+        </nav>
+        <a class="btn-primary" href="#"><button>Get in touch</button></a>
+      </header>
+
   	<!-- hero section -->
-  	<div class="container">
-  		<div>
-      <h1>I design innovative and functional products to help and encourage people.</h1>
-      <p>(or at least I try to!)</p>
-      <p>Hi there! I'm Carolina a Junior UX/UI Designer with a background in administration and customer service.</p>
-      <p>Currently looking for an entry level position to kick start my career change.</p>
-  	 </div>
+    <section class="section">
+    <div class="container">
+      <div class="hero-heading-container">
+      <h1>I design <span class="hero-gradient">innovative</span> and <span class="hero-gradient">functional products</span> to help and encourage <span class="hero-gradient"> people</span>.</h1>
     </div>
-      <!-- Wrapper for projects -->
+    <div>
+      <p>(or at least I try to!)</p>
+      <p>Hi there! I'm Carolina a <span class="textbold">Junior UX/UI Designer</span> with a background in administration and customer service.</p>
+      <p>Currently looking for an <span class="textbold">entry level position</span> to kick start my <span class="textbold">career change</span>.</p>
+  	 </div>
+     <div class="cta-container">
+       <a class="cta-button" href="#">Get in touch</a>
+       <a class="cta-text" href="#">Download my resume</a>
+     </div>
+  </div>
+  </section>
+      <!-- projects section -->
+    <section class="section">
   	<div class="container">
-  		<div> <!-- Wrapper for project main heading -->
-        <h2>My recent projects</h2>
-      </div>
-        <!-- Project one -->
+  	<h2>My recent projects</h2>
+        <!-- Project one wrapper-->
+        <div>
+        <div>
         <div>
         <picture>
           <source srcset="img/olive/project_small.png" media="(max-width:767px)">
         <img src="img/Olive/project_large.png" alt="Olive Project Image">
         </picture>
         </div>
+      </div>
         <div>
           <h3>Olive</h3>
           <p>A digital companion designed for people with diabetes.</p>
           <p>Project I worked on as part of a study course with CareerFoundry.</p>
           <a href="#"> View Project </a>
         </div>
-        <!-- Project two -->
+      </div>
+      </div>
+        <!-- Project two wrapper -->
+        <div>
         <div>
         <picture>
           <picture>
@@ -65,9 +76,12 @@
           <a href="#"> View Project </a>
         </div>
       </div>
+    </div>
+    </section>
     </body>
   	<!-- Footer  -->
-  	<footer>
+    <section class="section">
+    <footer>
       <div class="container">
   		<div>
         <h2>Let's get in touch</h2>
@@ -83,6 +97,7 @@
     </div>
   </div>
   	</footer>
+  </section>
   </body>
 
   </html>
