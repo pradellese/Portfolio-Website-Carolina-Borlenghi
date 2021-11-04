@@ -75,6 +75,7 @@ button:hover{
 }
 
 
+
 .textbold {
   color: #e4e4e4;
   font-weight: bolder;
@@ -83,7 +84,6 @@ button:hover{
 .hero-heading-container {
   max-width: 800px;
   padding: 30px 0px 0px 0px;
-
 }
 
 .hero-gradient {
@@ -108,6 +108,7 @@ button:hover{
   padding-left: 20px;
 }
 
+
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #272727;
@@ -131,3 +132,39 @@ h2 {
   font-size: 40px;
   line-height: 1.2;
   }
+
+
+footer {
+  background-color: #222121;
+  padding: 30px;
+  text-align: center;
+  clear:both;
+}
+
+.footer-text {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.text-gradient {
+    background-image: linear-gradient(140deg, #b16cea 35%, #ff5e69 52%, #ff8a56 68%, #ffa84b 85%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.footer-paragraph-text {
+  color: #e4e4e4;
+  font-size: 18px;
+}
+
+.copyright {
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.social-media{
+  space-between: 20px;
+  color: rgba(228,228,228,0.8)
+}
