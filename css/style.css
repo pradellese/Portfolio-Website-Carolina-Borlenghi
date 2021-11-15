@@ -181,7 +181,7 @@ footer {
 }
 
 .social-media {
-  space-between: 20px;
+  margin-right: 20px;
   color: rgba(228, 228, 228, 0.8);
 }
 
@@ -221,4 +221,12 @@ h5 {
 
 .profile-photo {
   float: right;
+}
+
+.about-summary {
+  max-width: 500px;
+}
+
+.about-cta-text{
+  margin-top: 60px;
 }
