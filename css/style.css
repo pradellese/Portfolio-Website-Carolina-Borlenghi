@@ -6,15 +6,16 @@
   width: auto;
   position: relative;
   padding-right: 30px;
-
 }
 
-li, a, button {
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #e4e4e4;
-    text-decoration: none;
+li,
+a,
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #e4e4e4;
+  text-decoration: none;
 }
 
 header {
@@ -22,7 +23,7 @@ header {
   justify-content: flex-end;
   align-items: center;
   padding: 30px 10%;
-  }
+}
 
 .logo {
   cursor: pointer;
@@ -45,14 +46,14 @@ header {
   transition: all 0.3s ease 0s;
 }
 
-.nav-link li a:hover{
+.nav-link li a:hover {
   color: #b16cea;
 }
 
 button {
   margin-left: 20px;
   padding: 16px 24px;
-  background-color: rgba(228,228,228,1)
+  background-color: rgba(228, 228, 228, 1);
   border: none;
   border-radius: 4px;
   color: #272727;
@@ -60,26 +61,23 @@ button {
   transition: all 0.3s ease 0s;
 }
 
-button:hover{
-  background-color: rgba(228,228,228,0.8)
+button:hover {
+  background-color: rgba(228, 228, 228, 0.8);
 }
 
-
 .section {
-    padding: 60px 0px;
+  padding: 60px 0px;
 }
 
 .container {
-  margin: 0px 30px;
+  padding: 0px 30px;
   max-width: 1200px;
 }
-
-
 
 .textbold {
   color: #e4e4e4;
   font-weight: bolder;
-  }
+}
 
 .hero-heading-container {
   max-width: 800px;
@@ -87,13 +85,19 @@ button:hover{
 }
 
 .hero-gradient {
-  background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+  background-image: linear-gradient(
+    108deg,
+    #b16cea 8%,
+    #ff5e69 40%,
+    #ff8a56 77%,
+    #ffa84b 91%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.cta-container{
+.cta-container {
   padding-top: 60px;
 }
 
@@ -107,7 +111,6 @@ button:hover{
 .cta-text {
   padding-left: 20px;
 }
-
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -124,21 +127,28 @@ h1 {
   line-height: 70px;
 }
 
-
 h2 {
   font-family: 'DM Serif Display', serif;
   color: #e4e4e4;
   font-weight: 400;
   font-size: 40px;
   line-height: 1.2;
-  }
+}
 
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 40px;
+}
 
 footer {
   background-color: #222121;
   padding: 30px;
   text-align: center;
-  clear:both;
+  clear: both;
 }
 
 .footer-text {
@@ -148,11 +158,17 @@ footer {
 }
 
 .text-gradient {
-    background-image: linear-gradient(140deg, #b16cea 35%, #ff5e69 52%, #ff8a56 68%, #ffa84b 85%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+  background-image: linear-gradient(
+    140deg,
+    #b16cea 35%,
+    #ff5e69 52%,
+    #ff8a56 68%,
+    #ffa84b 85%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .footer-paragraph-text {
   color: #e4e4e4;
@@ -164,7 +180,45 @@ footer {
   font-size: 14px;
 }
 
-.social-media{
+.social-media {
   space-between: 20px;
-  color: rgba(228,228,228,0.8)
+  color: rgba(228, 228, 228, 0.8);
+}
+
+.project-summary {
+  width: 35%;
+  margin: 30px;
+}
+
+.image-box {
+  width: 85%;
+  height: 100vh;
+  max-height: 500px;
+}
+
+.image-box img {
+  object-fit: cover;
+  max-height: 500px;
+}
+
+h3 {
+  font-family: 'DM Serif Display', serif;
+  color: #e4e4e4;
+  font-weight: 400;
+  font-size: 26px;
+/* for removing space between project title and project type */
+  margin-top: 0;
+  padding-top: 0;
+  line-height: 0;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: rgba(165,165,165,0.82);
+    text-transform: uppercase;
+}
+
+.profile-photo {
+  float: right;
 }
