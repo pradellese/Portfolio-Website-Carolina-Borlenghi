@@ -11,7 +11,7 @@
 li,
 a,
 button {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #e4e4e4;
@@ -113,14 +113,14 @@ button:hover {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: #272727;
   color: #a5a5a5;
   margin: auto 0;
 }
 
 h1 {
-  font-family: 'DM Serif Display', serif;
+  font-family: "DM Serif Display", serif;
   color: #e4e4e4;
   font-weight: 400;
   font-size: 60px;
@@ -128,7 +128,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'DM Serif Display', serif;
+  font-family: "DM Serif Display", serif;
   color: #e4e4e4;
   font-weight: 400;
   font-size: 40px;
@@ -152,7 +152,7 @@ footer {
 }
 
 .footer-text {
-  font-family: 'DM Serif Display', serif;
+  font-family: "DM Serif Display", serif;
   font-weight: 400;
   font-size: 40px;
 }
@@ -191,7 +191,7 @@ footer {
 }
 
 .image-box {
-  width: 85%;
+  width: 65%;
   height: 100vh;
   max-height: 500px;
 }
@@ -199,24 +199,25 @@ footer {
 .image-box img {
   object-fit: cover;
   max-height: 500px;
+  width: 100%;
 }
 
 h3 {
-  font-family: 'DM Serif Display', serif;
+  font-family: "DM Serif Display", serif;
   color: #e4e4e4;
   font-weight: 400;
   font-size: 26px;
-/* for removing space between project title and project type */
+  /* for removing space between project title and project type */
   margin-top: 0;
   padding-top: 0;
   line-height: 0;
 }
 
 h5 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    color: rgba(165,165,165,0.82);
-    text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: rgba(165, 165, 165, 0.82);
+  text-transform: uppercase;
 }
 
 .profile-photo {
@@ -227,6 +228,26 @@ h5 {
   max-width: 500px;
 }
 
-.about-cta-text{
+.about-cta-text {
   margin-top: 60px;
+}
+
+nav ul li:last-child {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-toggle ul > li:not(:last-child) {
+    display: none;
+  }
+  .nav-toggle.responsive ul > li:not(:last-child) {
+    display: block;
+  }
+
+  nav ul li:last-child {
+    display: inline-block;
+  }
 }
